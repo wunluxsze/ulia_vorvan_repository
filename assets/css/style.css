@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaBookC.ttf');
+}
+.btn{
+    background: #A387C4;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 20px 90px;
+    border: 3px solid #A387C4;;
+}
+.btn_i{
+    background: unset;
+}
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+.title_p{
+    color: #4C3D74;
+}
+.text{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.text_p{
+    color: #4C3D74;
+}
+body{
+    text-transform: uppercase;
+    font-family: 'Futura';
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 105px;
+    background: #4C3D74;
+}
+.header__wrap{
+    justify-content: space-between;
+    display: flex;
+}
+.header__logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF
+}
+.header__menu{
+}
+.header__list{
+    display: flex;
+}
+.header__item:not(:last-of-type){
+    margin-right: 27px;
+}
+.header__link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+/* intro */
+.intro{
+    padding-bottom: 180px;
+    background: #4C3D74;
+}
+.intro__wrap{
+    display: flex;
+    align-items: center;
+}
+.intro__block{}
+.intro__subtitle{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.intro__title{
+    margin-bottom: 30px;
+}
+.intro__btns{
+    margin-top: 45px;
+    display: flex;
+}
+.intro__btn:not(:last-of-type){
+    margin-right: 25px;
+}
+.intro__img{
+    width: 472px;
+    height: 472px;
+}
+.intro__img img{
+    height: 100%;
+    object-fit: cover;
+}
+/* welcome */
+.welcome{
+    margin-top: 167px;
+}
+.welcome__womans{
+    display: flex;
+    margin-left: -40px;
+    margin-top: -120px;
+}
+.welcome__wrap{}
+.welcome__block{
+}
+.welcome__title{
+    text-align: center;
+    color: #504178;
+}
+.welcome__reasons{
+    padding: 40px;
+}
+span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.welcome__reason{
+
+    max-width: 333px;
+    max-height: 138px;
+    box-sizing: border-box;
+    background: #F2EEF7;
+    border: 3px solid #4C3D74;
+    border-radius: 30px;
+    color: #4C3D74;
+    padding: 35px 45px;
+}
+
+.welcome__footer{
+    display: flex;
+}
+.welcome__footer__text{
+    font-weight: 700;
+    font-size: 20px;
+    color: #4C3D74;
+}
+.welcome__btn{
+    padding: 10px 0;
+}
+
+.welcome__img{
+    margin-bottom: -5px;
+    margin-left: 110px;
+}
+.welcome__row1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.welcome__row2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+/* intensive */
+.intensive{
+    background: #4C3D74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intensive__wrap{}
+.intensive__block{
+    margin-top: 184px;
+}
+.intensive__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.intensive__reason{
+    display: flex; 
+}
+.intensive__reason__text:not(:last-of-type){
+    margin-right: 50px;
+
+}
+.intensive__wrap{
+    display: flex;
+    flex-direction: row;
+}
+.intensive__reason__text{
+    max-width: 250px;
+    margin-right: 120px;
+}
+.intensive__reason__emojies{
+    margin-right: 20px;
+}
+.intensive__row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 120px;
+}
+.intensive__row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* intensive main */
+
+.intensive__main__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    padding-bottom: 31px;
+}
+.intensive__main__texts{
+    max-width: 660px;
+}
+.intensive__main__text{
+    padding-top: 35px;
+}
+
+.intensive__main__row{
+    padding-top: 20px;
+}
+.intensive__main__row2{
+    display: block;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.intensive__main__text_amount{
+
+}
+.intensive__main__count{
+    display: flex;
+}
+.intensive__main__footer__text{
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.intensive__main__footer{
+    display: flex;
+    margin-bottom: 100px;
+}
+.intensive__main__footer__woman{
+    margin-left: 170px;
+    margin-top: -400px;
+}
+
+
+
+
+
+/*Adaptive*/
+/* Intro */
+@media (max-width:1280px) {
+    .header{
+        padding-top: 80px;
+    }
+    .container{
+        width: unset;
+        padding: 0 15px;
+    }
+    .intro{
+        padding-bottom: 130px;
+    }
+    .intro__img{
+        width: 310px;
+        height: 310px;
+    }
+}
+@media (max-width:1024px) {
+    .header{
+        padding: 50px 0;
+    }
+    .intro{
+        padding-bottom: 50px;
+    }
+    .intro__wrap{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro__title, .intro__subtitle{
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .header__menu{
+        display: none;
+    }
+    .header__burger{
+        color: #FFFFFF;
+    }
+    .intro__subtitle{
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 27px;
+    }
+    .intro__title{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 27px;
+    }
+    .intro__btns{
+        flex-direction: column;
+    }
+    .intro__btn:not(:last-of-type){
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+/*Adaptive*/
+/* Welcome */
+@media (max-width:1280px) {
+    .welcome{
+        padding-bottom: 50px;
+    }
+    .container{
+        width: unset;
+        padding: 0 15px;
+    }
+    .welcome__img{
+        width: 310px;
+        height: 310px;
+    }
+    .welcome__img{
+        margin-bottom: -118px;
+    }
+}
+@media (max-width:1024px) {
+    .welcome{
+        padding-bottom: 50px;
+    }
+
+    .welcome__wrap{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcome__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome__title, .welcome__subtitle{
+        text-align: center;
+    }
+    .welcome__row1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .welcome__womans{
+        width: unset;
+        height: 61px;
+    }
+    .welcome__reasons{
+        max-width: 312px;
+        max-height: 177px;
+    }
+    .welcome__row2{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .welcome__footer{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .welcome__img{
+        padding-top: 43px;
+        padding-right: 140px;
+        width: 215px;
+        height: 215px;
+        display: flex;
+        margin-bottom: -50px;
+    }
+}
+@media (max-width: 768px){
+    .welcome{
+
+    }
+    .welcome__reasons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .welcome__reason{
+        min-width: 253px;
+        padding: 20px 20px;
+    }
+    .welcome__title{
+        max-width: 310px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .welcome__btn{
+        flex-direction: column;
+    }
+    .welcome__img{
+        margin-bottom: -37px;
+        margin-right: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .welcome__footer__text{
+        display: flex;
+        min-width: 304px;
+    }
+}
+
+/* intensive */
+@media (max-width: 1100px){
+    .intensive__main{}
+    .intensive__main__footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .intensive__main__footer__woman{        
+        display: flex;
+        width: 303px;
+        height: 373px;
+        margin-left: 0;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .intensive__main__count{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intensive__main__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .intensive__main__text{
+
+
+        
+    }
+}
+@media (max-width: 975px){
+    .intensive__reason__emojies{
+        width: 46px;
+        height: 47px;
+    }
+
+}
+@media (max-width: 768px){
+    .intensive__reason__emojies{
+        display: flex;
+    }
+    .intensive__reason__text{
+        display: block;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .intensive__reason{
+        display: flex;
+        flex-direction: column;
+    }
+    .intensive__reason__block{
+        max-width: 355px;
+        margin-top: 10px;
+        display: flex;
+    }
+    .intensive__row2{
+        display: block;
+        flex-direction: column;
+    }
+    .intensive__row1{
+        display: block;
+        flex-direction: column;
+    }
+    .intensive__main__text{
+        margin: 0 auto;
+        max-width: 298px;
+    }
+    .intensive__main__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .intensive__main__text_amount{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .intensive__main__title_amount{
+        font-size: 30px;
+    }
+    .intensive__title{
+        font-size: 30px;
+    }
+    .intensive__main__footer__text{
+        max-width: 304px;
+    }
+    .intensive__main__footer__woman{
+        width: 250px;
+        height: 289px;
+    }
+    .intensive__title{
+        line-height: 30px;
+    }
+    .intensive__row2{
+
+    }
+}
